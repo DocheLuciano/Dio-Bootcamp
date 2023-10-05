@@ -1,1 +1,21 @@
 Aqui estarão informações do curso
+
+comando usados até agora:
+Primeiro, criar um repositório no site do GitHub e copiar o link desse repositório;
+Depois na pasta local do seu Pc onde quiser armazenar o seu projeto, abrir o Git Bash e usar o comando:
+
+$ git clone digite aqui o link copiado
+
+após trabalhar ou fazer as suas alterações, use os comandos:
+
+$ git add . 
+//estou utilizando  "." após o add para adicionar todas as alterações feitas.
+
+$ git commit -m "uma mensagem aqui" 
+// adicione uma mensagem clara e útil para você ou sua equipe entender oq vc fez.
+
+$ git push origin main
+//esse comando envia as alterções direto para o repositório no site do GitHub, dentro da Branch "Main".
+
+$ git status
+//mostra o status do seu projeto no git/github.
